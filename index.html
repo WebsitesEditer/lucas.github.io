@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>소설 공책 생성기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📘 소설 공책 생성기</h1>
+
+  <input type="text" id="novel-title" placeholder="소설 제목 입력" />
+  <input type="text" id="novel-author" placeholder="작가 이름 입력" />
+  <button id="generate-button">생성하기</button>
+
+  <div class="tabs">
+    <div class="tab active" id="tab-mindmap">마인드맵</div>
+    <div class="tab" id="tab-author">작가 정보</div>
+    <div class="tab" id="tab-quotes">명문장</div>
+    <div class="tab" id="tab-analysis">비평 분석</div>
+  </div>
+
+  <div id="output" class="tab-content"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
